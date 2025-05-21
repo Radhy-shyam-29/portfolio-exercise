@@ -1,0 +1,16 @@
+nav bar
+logo photo + shortcut tabs
+
+headers
+sliding imgs + texts = who i am 
+
+main
+my projects + links
+
+footer
+my social links with logos 
+copyright status website designer details 
+for hiring mail to this mail 
+
+any querry
+enter your mail here and after mail enterd text box appears write what you want. and store in local storages

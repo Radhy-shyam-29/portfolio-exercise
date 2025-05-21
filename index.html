@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radhy Shyam</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-somehash" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="media/ff4ee970-f6eb-4b27-94bc-441e17b6beaf.png" alt="logo">
+            </div>
+            <div class="shortcuts-tabs">
+                <li><a href="">home</a></li>
+                <li> <a href="">about</a></li>
+                <li><a href="">work</a></li>
+                <li><a href="">deals</a></li>
+            </div>
+        </nav>
+ <div class="slider">
+    <div class="slides">
+      <!-- Slide Images -->
+      <img src="media/1.jpg" class="slide" alt="Image 1" />
+      <img src="media/2.jpg" class="slide" alt="Image 2" />
+      <img src="media/3.jpg" class="slide" alt="Image 3" />
+    </div>
+
+    <!-- Navigation buttons -->
+    <button class="prev" onclick="moveSlide(-1)">❮</button>
+    <button class="next" onclick="moveSlide(1)">❯</button>
+  </div>
+
+  <div class="my-work-banner">
+  <div class="my-work-heading">
+    <hr><span>My Work</span><hr>
+  </div>
+
+  <div class="my-work-card">
+    <div class="left-text">
+      <h2>My Work</h2>
+    </div>
+    <div class="view-button">
+      <a href="#projects">View All</a>
+    </div>
+  </div>
+</div>
+
+<div class="myWork">
+
+  <!-- ✅ ToDo App -->
+  <div class="work first">
+    <img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" alt="todo icon" width="100" height="100">
+    <h2>📝 To-Do App</h2>
+    <p>Simple task manager using HTML/CSS/JS</p>
+    <a href="https://radhy-shyam-29.github.io/To-Do-App/" target="_blank">Visit ➜</a>
+  </div>
+
+  <!-- ✅ Weather App -->
+  <div class="work second">
+    <img src="https://cdn-icons-png.flaticon.com/512/1163/1163624.png" alt="weather icon" width="100" height="100">
+    <h2>🌤️ Weather App</h2>
+    <p>Real-time weather via API</p>
+    <a href="https://radhy-shyam-29.github.io/Weather-App-API-/" target="_blank">Visit ➜</a>
+  </div>
+
+  <!-- ✅ Daily Scoop Clone -->
+  <div class="work third">
+    <img src="https://cdn-icons-png.flaticon.com/512/841/841364.png" alt="news icon" width="100" height="100">
+    <h2>📰 Daily Scoop</h2>
+    <p>News webpage UI clone</p>
+    <a href="https://radhy-shyam-29.github.io/Daily-Scoop-Webpage-Clone/" target="_blank">Visit ➜</a>
+  </div>
+
+  <!-- ✅ Analog Clock -->
+  <div class="work fourth">
+    <img src="https://cdn-icons-png.flaticon.com/512/992/992700.png" alt="clock icon" width="100" height="100">
+    <h2>🕒 Analog Clock</h2>
+    <p>Pure JS-based live clock</p>
+    <a href="https://radhy-shyam-29.github.io/Analog-Clock/" target="_blank">Visit ➜</a>
+  </div>
+
+</div>
+
+</div>
+
+<div class="end-section-banner">
+  <div class="end-section-heading">
+    <hr><span>That's All</span><hr>
+  </div>
+</div>
+<footer class="main-footer">
+  <h2>Let's Connect</h2>
+
+  <div class="footer-socials">
+    <a href="https://github.com/radhy-shyam-29" target="_blank" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/radhy-shyam-914a8634b/" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="mailto:radhy2929@gmail.com" title="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+
+  <p>© 2025 Radhy Shyam. Designed & Developed by Radhy Shyam.</p>
+  <p>For Hiring: <a href="mailto:radhy2929@gmail.com">radhy2929@gmail.com</a></p>
+
+  <div class="contact-form">
+    <label for="email">Any Query? Enter your email:</label>
+    <input type="email" id="emailInput" placeholder="your@email.com">
+
+    <div id="messageSection" style="display: none;">
+      <label for="message">Write what you want:</label>
+      <textarea id="messageInput" placeholder="Type your message here..."></textarea>
+      <button onclick="storeMessage()">Submit</button>
+    </div>
+  </div>
+</footer>
+
+
+        <script src="script.js"></script>
+</body>
+</html>
